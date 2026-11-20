@@ -15,148 +15,60 @@
       padding: 24px;
     }
 
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 24px;
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 48px;
-    }
-
-    .logo {
-      font-size: 64px;
-      margin-bottom: 16px;
-    }
-
-    h1 {
-      font-size: 28px;
-      font-weight: bold;
-      color: #E6EDF3;
-      margin-bottom: 8px;
-    }
-
-    .subtitulo {
-      font-size: 14px;
-      color: #8B949E;
-    }
+    .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+    .header { text-align: center; margin-bottom: 48px; }
+    .logo { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 28px; font-weight: bold; color: #E6EDF3; margin-bottom: 8px; }
+    .subtitulo { font-size: 14px; color: #8B949E; }
 
     .atualizacao {
-      display: inline-block;
-      background: #161B22;
-      border: 1px solid #30363D;
-      border-radius: 20px;
-      padding: 4px 14px;
-      font-size: 12px;
-      color: #8B949E;
-      margin-top: 12px;
+      display: inline-block; background: #161B22; border: 1px solid #30363D;
+      border-radius: 20px; padding: 4px 14px; font-size: 12px; color: #8B949E; margin-top: 12px;
     }
 
     .card {
-      background: #161B22;
-      border: 1px solid #30363D;
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 16px;
+      background: #161B22; border: 1px solid #30363D; border-radius: 16px;
+      padding: 24px; margin-bottom: 16px;
     }
 
     h2 {
-      font-size: 16px;
-      font-weight: bold;
-      color: #58A6FF;
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      font-size: 16px; font-weight: bold; color: #58A6FF; margin-bottom: 12px;
+      display: flex; align-items: center; gap: 8px;
     }
 
-    p {
-      font-size: 14px;
-      color: #8B949E;
-      margin-bottom: 10px;
-    }
-
+    p { font-size: 14px; color: #8B949E; margin-bottom: 10px; }
     p:last-child { margin-bottom: 0; }
+    strong { color: #E6EDF3; }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      font-size: 14px;
-      color: #8B949E;
-      padding: 6px 0;
-      padding-left: 20px;
-      position: relative;
-    }
-
-    ul li::before {
-      content: "•";
-      color: #58A6FF;
-      position: absolute;
-      left: 0;
-    }
+    ul { list-style: none; padding: 0; }
+    ul li { font-size: 14px; color: #8B949E; padding: 6px 0 6px 20px; position: relative; }
+    ul li::before { content: "•"; color: #58A6FF; position: absolute; left: 0; }
 
     .badge {
-      display: inline-block;
-      background: rgba(88,166,255,0.1);
-      border: 1px solid rgba(88,166,255,0.3);
-      border-radius: 20px;
-      padding: 2px 10px;
-      font-size: 11px;
-      color: #58A6FF;
-      margin-left: 8px;
-      vertical-align: middle;
+      display: inline-block; background: rgba(88,166,255,0.1); border: 1px solid rgba(88,166,255,0.3);
+      border-radius: 20px; padding: 2px 10px; font-size: 11px; color: #58A6FF; margin-left: 8px; vertical-align: middle;
     }
 
     .destaque {
-      background: rgba(63,185,80,0.08);
-      border: 1px solid rgba(63,185,80,0.2);
-      border-radius: 12px;
-      padding: 16px 20px;
-      margin-bottom: 16px;
+      background: rgba(63,185,80,0.08); border: 1px solid rgba(63,185,80,0.2);
+      border-radius: 12px; padding: 16px 20px; margin-bottom: 16px;
     }
-
-    .destaque p {
-      color: #3FB950;
-      font-size: 14px;
-      margin: 0;
-    }
+    .destaque p { color: #3FB950; font-size: 14px; margin: 0; }
 
     .contato {
-      background: rgba(88,166,255,0.06);
-      border: 1px solid rgba(88,166,255,0.2);
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-      margin-top: 8px;
+      background: rgba(88,166,255,0.06); border: 1px solid rgba(88,166,255,0.2);
+      border-radius: 12px; padding: 20px; text-align: center; margin-top: 8px;
     }
-
-    .contato a {
-      color: #58A6FF;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
+    .contato a { color: #58A6FF; text-decoration: none; font-weight: bold; word-break: break-all; }
     .contato a:hover { text-decoration: underline; }
 
-    .footer {
-      text-align: center;
-      margin-top: 48px;
-      padding-top: 24px;
-      border-top: 1px solid #30363D;
-    }
-
-    .footer p {
-      font-size: 12px;
-      color: #484F58;
-    }
+    .footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid #30363D; }
+    .footer p { font-size: 12px; color: #484F58; }
+    a { color: #58A6FF; }
 
     @media (max-width: 600px) {
-      .container { padding: 20px 16px; }
+      body { padding: 16px; }
+      .container { padding: 20px 0; }
       h1 { font-size: 22px; }
     }
   </style>
@@ -164,59 +76,56 @@
 <body>
   <div class="container">
 
-    <!-- Header -->
     <div class="header">
       <div class="logo">🐼</div>
       <h1>Política de Privacidade</h1>
       <p class="subtitulo">Soneca — Alarme por Proximidade</p>
-      <span class="atualizacao">📅 Última atualização: Setembro de 2026</span>
+      <span class="atualizacao">📅 Última atualização: Novembro de 2026</span>
     </div>
 
-    <!-- Destaque -->
     <div class="destaque">
-      <p>✅ O Soneca não coleta, armazena ou compartilha seus dados pessoais em servidores externos. Todos os dados ficam exclusivamente no seu dispositivo.</p>
+      <p>✅ O Soneca não tem servidores próprios: seus destinos, favoritos e configurações ficam somente no seu dispositivo.</p>
     </div>
 
-    <!-- Seções -->
     <div class="card">
       <h2>1. Introdução</h2>
-      <p>O <strong style="color:#E6EDF3">Soneca</strong> é um aplicativo de alarme por proximidade desenvolvido para ajudar usuários a não passar do destino durante viagens de transporte público ou privado.</p>
-      <p>Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações no contexto do aplicativo, em conformidade com a <strong style="color:#E6EDF3">Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
+      <p>O <strong>Soneca</strong> é um aplicativo de alarme por proximidade desenvolvido para ajudar usuários a não passar do destino durante viagens de transporte público ou privado.</p>
+      <p>Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações no contexto do aplicativo, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>.</p>
     </div>
 
     <div class="card">
       <h2>2. Dados coletados e utilizados</h2>
       <p>O Soneca coleta e utiliza os seguintes dados:</p>
       <ul>
-        <li><strong style="color:#E6EDF3">Localização GPS:</strong> usada exclusivamente para detectar a proximidade do destino marcado e disparar o alarme. Não é enviada para nenhum servidor externo.</li>
-        <li><strong style="color:#E6EDF3">Destinos e favoritos:</strong> armazenados localmente no dispositivo para uso do histórico e favoritos.</li>
-        <li><strong style="color:#E6EDF3">Dados de uso (AdMob):</strong> coletados pelo Google AdMob para exibição de anúncios na versão gratuita, conforme política do Google.</li>
+        <li><strong>Localização GPS:</strong> usada exclusivamente para detectar a proximidade do destino marcado e disparar o alarme. Sua localização em tempo real não é enviada para servidores do Soneca.</li>
+        <li><strong>Destinos e favoritos:</strong> armazenados localmente no dispositivo para uso do histórico e favoritos.</li>
+        <li><strong>Endereços e buscas:</strong> para mostrar o endereço de um ponto marcado, o app usa o serviço de geocodificação do sistema (Google ou Apple). As buscas por local e as imagens do mapa vêm do OpenStreetMap.</li>
+        <li><strong>Dados de uso (AdMob):</strong> coletados pelo Google AdMob para exibição de anúncios na versão gratuita, conforme política do Google.</li>
       </ul>
     </div>
 
     <div class="card">
       <h2>3. Armazenamento de dados</h2>
-      <p>Todos os dados do aplicativo — destinos, favoritos, histórico e configurações — são armazenados exclusivamente no dispositivo do usuário utilizando armazenamento local (AsyncStorage).</p>
-      <p><strong style="color:#E6EDF3">Nenhum dado pessoal é enviado ou armazenado em servidores externos.</strong></p>
+      <p>Todos os dados do aplicativo — destinos, favoritos, histórico e configurações — são armazenados exclusivamente no dispositivo do usuário, em armazenamento local.</p>
+      <p><strong>O Soneca não envia esses dados para servidores próprios.</strong></p>
     </div>
 
     <div class="card">
       <h2>4. Localização em segundo plano <span class="badge">Importante</span></h2>
-      <p>O Soneca solicita permissão de acesso à localização em <strong style="color:#E6EDF3">segundo plano</strong> para funcionar corretamente com a tela bloqueada, que é o principal caso de uso do aplicativo.</p>
-      <p>Esta funcionalidade é essencial para o propósito do app: alertar o usuário quando se aproximar do destino mesmo com o celular na bolsa ou com a tela desligada.</p>
-      <p>A localização é utilizada <strong style="color:#E6EDF3">somente durante o monitoramento ativo</strong> e nunca em segundo plano sem o consentimento e ativação explícita pelo usuário.</p>
+      <p>O Soneca coleta dados de localização para saber quando você se aproxima do destino, <strong>mesmo quando o app está fechado ou não está em uso</strong>. Isso permite que o alarme funcione com a tela bloqueada, que é o principal caso de uso do aplicativo.</p>
+      <p>Antes de pedir essa permissão, o app mostra uma explicação. A localização é utilizada <strong>somente enquanto o alarme estiver ativo</strong>, por ativação explícita do usuário, e não é vendida nem usada para anúncios.</p>
     </div>
 
     <div class="card">
       <h2>5. Publicidade — Google AdMob</h2>
-      <p>A versão gratuita do Soneca exibe anúncios fornecidos pelo <strong style="color:#E6EDF3">Google AdMob</strong>. O Google pode coletar dados para personalização de anúncios conforme sua própria Política de Privacidade.</p>
+      <p>A versão gratuita do Soneca exibe anúncios fornecidos pelo <strong>Google AdMob</strong>. O Google pode coletar dados para personalização de anúncios conforme sua própria Política de Privacidade.</p>
       <p>Ao abrir o aplicativo pela primeira vez, será exibido um formulário de consentimento para uso de dados em anúncios, conforme exigido pela legislação aplicável.</p>
-      <p>Usuários da versão <strong style="color:#E6EDF3">Soneca Pro</strong> não são expostos a anúncios e, portanto, não têm dados coletados pelo AdMob.</p>
+      <p>Usuários da versão <strong>Soneca Pro</strong> não são expostos a anúncios e, portanto, não têm dados coletados pelo AdMob.</p>
     </div>
 
     <div class="card">
       <h2>6. Compras in-app</h2>
-      <p>O Soneca oferece a versão Pro mediante compra in-app gerenciada pelo <strong style="color:#E6EDF3">RevenueCat</strong> em conjunto com as lojas oficiais (Google Play Store e Apple App Store).</p>
+      <p>O Soneca oferece a versão Pro mediante compra in-app gerenciada pelo <strong>RevenueCat</strong> em conjunto com as lojas oficiais (Google Play Store e Apple App Store).</p>
       <p>Não armazenamos dados de pagamento. Todas as transações são processadas diretamente pelas lojas oficiais.</p>
     </div>
 
@@ -230,22 +139,24 @@
         <li>Revogar o consentimento de anúncios</li>
         <li>Obter informações sobre o uso dos seus dados</li>
       </ul>
-      <p style="margin-top:12px">Como todos os dados são armazenados localmente, você pode exercer esses direitos diretamente nas <strong style="color:#E6EDF3">Configurações do app → Limpar dados</strong>. Para revogar o consentimento de anúncios, acesse <strong style="color:#E6EDF3">Configurações → Consentimento de anúncios</strong>.</p>
+      <p style="margin-top:12px">Como os dados são armazenados localmente, você pode exercer esses direitos diretamente em <strong>Configurações do app → Limpar dados</strong>. Para revogar o consentimento de anúncios, acesse <strong>Configurações → Consentimento de anúncios</strong>.</p>
     </div>
 
     <div class="card">
       <h2>8. Compartilhamento de dados</h2>
-      <p>O Soneca <strong style="color:#E6EDF3">não vende, troca ou compartilha</strong> seus dados pessoais com terceiros, exceto:</p>
+      <p>O Soneca <strong>não vende nem troca</strong> seus dados pessoais. Os dados só passam por terceiros nestes casos:</p>
       <ul>
         <li>Google AdMob (somente na versão gratuita, para exibição de anúncios)</li>
         <li>RevenueCat (para gerenciamento de assinaturas e compras)</li>
         <li>Lojas oficiais (Google Play / App Store) para processamento de pagamentos</li>
+        <li>Geocodificação do sistema (Google ou Apple) e OpenStreetMap, para endereços, buscas e mapa</li>
       </ul>
+      <p style="margin-top:12px">Ao usar <strong>Compartilhar destino</strong>, o endereço é enviado somente para o app e a pessoa que você escolher.</p>
     </div>
 
     <div class="card">
       <h2>9. Segurança</h2>
-      <p>Adotamos medidas técnicas para proteger os dados armazenados localmente no seu dispositivo. Recomendamos que você mantenha seu dispositivo protegido com senha ou biometria.</p>
+      <p>Os dados ficam protegidos pelo armazenamento do próprio dispositivo. Recomendamos que você mantenha seu dispositivo protegido com senha ou biometria.</p>
     </div>
 
     <div class="card">
@@ -263,15 +174,15 @@
       <p>Para dúvidas, solicitações ou exercício dos seus direitos previstos na LGPD:</p>
       <div class="contato">
         <p style="color:#8B949E; margin-bottom:8px">📧 Entre em contato pelo e-mail</p>
-        <a href="mailto:contato@sonecaapp.com">hugocoelhocruz@hotmail.com</a>
+        <a href="mailto:hugocoelhocruz@hotmail.com">hugocoelhocruz@hotmail.com</a>
       </div>
     </div>
 
-    <!-- Footer -->
     <div class="footer">
       <div class="logo" style="font-size:32px; margin-bottom:8px">🐼</div>
       <p>Soneca v1.0.0 — Feito com 💙 para quem dorme no transporte</p>
       <p style="margin-top:4px">© 2026 Soneca App. Todos os direitos reservados.</p>
+      <p style="margin-top:8px"><a href="termos.html">Termos de Uso</a></p>
     </div>
 
   </div>
